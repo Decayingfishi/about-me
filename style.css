@@ -1,0 +1,41 @@
+.links {
+display: inline-block;
+color: rgb(194, 194, 194);
+transition:  transform 0.2s ease, color 0.2s ease;
+text-decoration: none;
+margin-right: 5px;
+margin-bottom: 5px;
+text-align: center;
+}
+
+.links:hover {
+color: rgb(255, 255, 255);
+transform: scale(1.1);
+}
+
+.nav {
+  text-align: center;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+body {
+background-color: black;
+font-family: monospace;
+}
+
+.text {
+color: white;
+}
+
+.ascii {
+color: white;
+border: 1px solid white;
+padding: 10px;
+text-align: center;
+}
+
+a {
+font-size: 14px;
+
+}
